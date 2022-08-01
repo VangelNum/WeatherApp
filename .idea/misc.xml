@@ -3,14 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable-v24/white_bg.xml" value="0.1615" />
         <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable/clear_bg.xml" value="0.1355" />
         <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable/clouds_bg.xml" value="0.1355" />
         <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable/drizzle_bg.xml" value="0.1355" />
+        <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1605" />
         <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable/mist_bg.xml" value="0.1355" />
         <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable/rainy_bg.xml" value="0.1355" />
         <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable/snow_bg.xml" value="0.1355" />
         <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/drawable/thunderstrom_bg.xml" value="0.1355" />
-        <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/vangel/weatherapp/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
