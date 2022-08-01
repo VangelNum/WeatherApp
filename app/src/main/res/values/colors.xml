@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="thunderstorm">#1361FD</color>
+    <color name="mist">#1361FD</color>
     <color name="drizzle">#526FA8</color>
     <color name="rain">#0E8EFF</color>
     <color name="snow">#987CFF</color>
