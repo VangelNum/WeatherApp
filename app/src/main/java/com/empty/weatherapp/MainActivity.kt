@@ -31,6 +31,7 @@ import java.math.RoundingMode
 import java.text.SimpleDateFormat
 import java.time.Instant
 import java.time.ZoneId
+import java.time.temporal.ChronoUnit
 import java.util.*
 import kotlin.math.roundToInt
 
@@ -159,8 +160,8 @@ class MainActivity : AppCompatActivity() {
 
     @RequiresApi(Build.VERSION_CODES.O)
     private fun setDataOnViews(body: ModelClass?) {
-        val sdf = SimpleDateFormat("dd/MM/yyyy hh:mm")
-        val currentDate = sdf.format(Date())
+        //val sdf = SimpleDateFormat("dd/MM/yyyy hh:mm")
+        //val currentDate = sdf.format(Date())
         activityMainBinding.tvDayMaxTemp.text = "Днем " + kelvinToCelsius(body!!.main.temp_max) + "°"
         activityMainBinding.tvDayMinTemp.text =
             "Ночью " + kelvinToCelsius(body.main.temp_min) + "°"
@@ -320,6 +321,7 @@ class MainActivity : AppCompatActivity() {
             Instant.ofEpochSecond(it)
                 .atZone(ZoneId.systemDefault())
                 .toLocalTime()
+                .truncatedTo(ChronoUnit.MINUTES)
         }
         return localTime.toString()
     }
