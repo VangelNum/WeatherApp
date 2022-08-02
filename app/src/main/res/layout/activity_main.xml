@@ -7,6 +7,7 @@
 
     </data>
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -49,6 +50,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:id="@+id/et_get_city_name"
+
                             android:hint="@string/search_places"
                             android:paddingStart="@dimen/padding_large"
                             android:paddingEnd="@dimen/padding_large"
@@ -91,6 +93,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/padding_large"
                         android:layout_marginStart="@dimen/padding_x_large"
+                        android:layout_marginEnd="@dimen/padding_x_large"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -191,9 +194,12 @@
                                 android:textSize="@dimen/text_large">
 
                             </TextView>
-                        </LinearLayout>
-                    </LinearLayout>
 
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
 
 
                 </com.github.matteobattilana.weather.WeatherView>

@@ -184,6 +184,7 @@ class MainActivity : AppCompatActivity() {
             "" + (kelvinToCelsius(body.main.temp).times(1.8).plus(32).roundToInt())
         activityMainBinding.etGetCityName.setText(body.name)
 
+
         when (body.weather[0].main) {
             "Clouds" -> activityMainBinding.tvWeatherType.text = "Облачно"
             "Rain" -> activityMainBinding.tvWeatherType.text = "Дождь"
